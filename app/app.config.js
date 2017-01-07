@@ -2,7 +2,7 @@ angular.
     module('monApp').
     config(['$locationProvider', '$routeProvider',
         function config($locationProvider, $routeProvider) {
-            $locationProvider.hashPrefix('!');
+            $locationProvider.hashPrefix('');
 
             $routeProvider.
                 when('/', {

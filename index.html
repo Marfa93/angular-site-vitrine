@@ -33,15 +33,19 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#!/">Description</a></li>
-                    <li><a href="#!/planning">Déroulement</a></li>
-                    <li><a href="#!/registration">Formulaire</a></li>
+                    <li><a href="#">Description</a></li>
+                    <li><a href="#planning">Déroulement</a></li>
+                    <li><a href="#registration">Formulaire</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
     </nav>
 
-    <div ng-view></div>
+    <div>
+        <event-description></event-description>
+        <event-planning></event-planning><h1>Planning de ouf</h1>
+        <event-registration></event-registration><h1>Gros Formaulaire</h1>
+    </div>
 
 </body>
 </html>
