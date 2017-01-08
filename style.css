@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /*padding-top: 50px;*/
+}
+
+section {
+    padding-top: 70px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.section-first {
+    height: 90vh;
+    background-color: grey;
+}
+
+div.content {
+    text-align: center;
+}

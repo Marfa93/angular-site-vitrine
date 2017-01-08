@@ -1,8 +1,8 @@
 angular.
     module('eventDescription').
     component('eventDescription', {
-        template: 'Bonjour {{$ctrl.user}} !',
+        template: '<h1>Bonjour {{$ctrl.user}} !</h1>',
         controller: function EventDescriptionController() {
-            this.user = 'Boss';
+            this.user = 'Monsieur';
         }
     });

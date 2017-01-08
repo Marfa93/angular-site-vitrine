@@ -1,1 +1,1 @@
-angular.module('eventPlanning', ['ngRoute']);
+angular.module('eventPlanning', []);

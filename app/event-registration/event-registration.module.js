@@ -1,1 +1,1 @@
-angular.module('eventRegistration', ['ngRoute']);
+angular.module('eventRegistration', []);

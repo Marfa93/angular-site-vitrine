@@ -1,1 +1,1 @@
-angular.module('eventDescription', ['ngRoute']);
+angular.module('eventDescription', []);
