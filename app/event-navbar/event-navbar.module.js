@@ -1,1 +1,1 @@
-angular.module('eventNavbar', []);
+angular.module('eventNavbar', ['duScroll']);
