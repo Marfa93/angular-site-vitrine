@@ -2,10 +2,14 @@
 <br>
 <timeline>
   <timeline-event ng-repeat="event in $ctrl.events">
-    <timeline-badge class="{{event.badgeClass}}">
+    <timeline-badge class="{{event.badgeClass}}"
+      when-visible="$ctrl.animateElementIn"
+      when-not-visible="$ctrl.animateElementOut" class="hidden">
       <i class="glyphicon {{event.badgeIconClass}}"></i>
     </timeline-badge>
-    <timeline-panel class="{{event.badgeClass}}">
+    <timeline-panel class="{{event.badgeClass}}"
+      when-visible="$ctrl.animateElementIn"
+      when-not-visible="$ctrl.animateElementOut" class="hidden">
       <timeline-heading>
         <h4>{{event.title}}</h4>
       </timeline-heading>

@@ -3,6 +3,5 @@ angular.module("monApp", [
     'eventPlanning',
     'eventRegistration',
     'eventNavbar',
-    'duScroll',
-    'angular-timeline'
+    'duScroll'
 ]);

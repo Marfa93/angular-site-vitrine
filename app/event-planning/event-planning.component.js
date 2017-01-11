@@ -44,5 +44,15 @@ angular.
                 title: '12/02/2017 à 21h',
                 content: 'Remise des prix'
             }];
+
+            this.animateElementIn = function($el) {
+                $el.removeClass('not-visible');
+                $el.addClass('animated bounceIn');
+            }
+
+            this.animateElementOut = function($el) {
+                $el.addClass('not-visible');
+                $el.removeClass('animated bounceIn');
+            }
         }
     });

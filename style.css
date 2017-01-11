@@ -49,3 +49,12 @@ label.control-label {
 .timeline {
     color: #333;
 }
+
+.not-visible {
+  visibility: hidden;
+}
+
+timeline-badge, timeline-panel {
+  animation-delay: 0.25s;
+  -webkit-animation-delay: 0.25s;
+}
