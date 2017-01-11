@@ -1,1 +1,1 @@
-angular.module('eventPlanning', []);
+angular.module('eventPlanning', ['angular-timeline']);

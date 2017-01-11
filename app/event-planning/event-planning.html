@@ -1,0 +1,15 @@
+<h1>Voici le planning de l'évènement</h1>
+<br>
+<timeline>
+  <timeline-event ng-repeat="event in $ctrl.events">
+    <timeline-badge class="{{event.badgeClass}}">
+      <i class="glyphicon {{event.badgeIconClass}}"></i>
+    </timeline-badge>
+    <timeline-panel class="{{event.badgeClass}}">
+      <timeline-heading>
+        <h4>{{event.title}}</h4>
+      </timeline-heading>
+      <p ng-if="event.content">{{event.content}}</p>
+    </timeline-panel>
+  </timeline-event>
+</timeline>
